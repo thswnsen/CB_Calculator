@@ -41,7 +41,6 @@ function s1DbClicked()
 
     leadershipArray.push(getUnitLeaderShip(temp));
 
-
     s2.options.add(opt1);
     onChangeLeaderShip();
     removeAll(target);
@@ -54,9 +53,10 @@ function s2DbClicked()
 
     var target = document.getElementById('s2');
     var s1 = document.getElementById('s1');
-    s2.options.remove(target.selectedIndex);
-    leadershipArray.splice(target.selectedIndex);
+
+    leadershipArray.splice(target.selectedIndex,1);
     onChangeLeaderShip();
+    s2.options.remove(target.selectedIndex);
     removeAll(s1);
     InitList();
 
