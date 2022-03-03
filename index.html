@@ -1,0 +1,54 @@
+
+<html>
+    <script type="text/javascript" src="index.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    
+    <style media="screen">
+        body{
+            margin: 5% 5%;
+        }
+        .s1, .s2
+        {
+            width:350px;
+            height: 600;
+            margin-right: 60px;
+        }
+        label 
+        {
+            display: block;
+            padding-left: 15px;
+            text-indent: -15px;
+        }
+       
+   
+
+    </style>
+    
+    <div class="row" style="margin-top: 40px;">
+        <div class="col">
+            <h2> CB 통솔력 계산 </h2>
+            <hr/>
+            <p><strong>통솔력:</strong> <input type="number" id = "leadership" onchange="onChangeLeaderShip()">
+            <p><strong>남은 통솔력:</strong> <text id="result"></div>
+        </div>
+    </div>
+    
+<body>
+    
+    <div>
+        <label><input type="checkbox" name="leadershipDoctrin" onchange='getDoctrin(event)'> 통솔 군혼 장착</label>
+        <label><input type="checkbox" name="hideUnit" checked onchange='getHideUnit(event)'> 편성 불가 유닛 숨기기</label>
+    </div>
+    <select multiple class="s1" id = s1 onchange="s1DbClicked()" >
+    </select>
+
+    <select multiple class="s2" id = s2 onchange="s2DbClicked()">
+    </select>
+
+    
+
+
+
+</body>
+   
+</html>   
