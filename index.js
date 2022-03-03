@@ -38,6 +38,7 @@ function s1DbClicked()
     opt1.value = target.options[target.selectedIndex].value
     opt1.innerHTML = target.options[target.selectedIndex].text
     opt1.style.backgroundColor = target.options[target.selectedIndex].style.backgroundColor;
+    opt1.id = "optionItem";
 
     leadershipArray.push(getUnitLeaderShip(temp));
 
@@ -59,7 +60,8 @@ function s2DbClicked()
     s2.options.remove(target.selectedIndex);
     removeAll(s1);
     InitList();
-
+    
+    
 }
 
 function onChangeLeaderShip()
@@ -229,7 +231,8 @@ function InitList()
         opt1.value = gradeArr[i].name;
         
         opt1.innerHTML = `${gradeArr[i].name} (${getUnitLeaderShip(gradeArr[i])})`
-        
+        opt1.id = "optionItem";
+
         if(gradeArr[i].rank == 5)
         {
             opt1.style.backgroundColor = '#ffcc66'
