@@ -167,7 +167,6 @@ function InitUnitData()
     gradeArr.push(new UnitData(3,"펜릴 늑대 전사",180));
     gradeArr.push(new UnitData(3,"변방 수비대",180));
     gradeArr.push(new UnitData(3,"스위스 할버드병",175));
-    gradeArr.push(new UnitData(3,"스위스 할버드병",175));
     gradeArr.push(new UnitData(3,"경기 철위영",175));
     gradeArr.push(new UnitData(3,"바실레우스 화염병 투척수",175));
     gradeArr.push(new UnitData(3,"스위스 알파인 할버드병",175));
