@@ -109,8 +109,10 @@ function InitUnitData()
     /* 5성 */
     gradeArr.push(new UnitData(5,"아르노 화포 포병",330));
     gradeArr.push(new UnitData(5,"바실레우스 화염 방사 호위대",330));
+    gradeArr.push(new UnitData(5,"Chevaliers: Paragon Spear",330));
     gradeArr.push(new UnitData(5,"아필린 방패석궁병",325));
     gradeArr.push(new UnitData(5,"예니체리 궁궐호위대",320));
+    gradeArr.push(new UnitData(5,"콜레흐 사냥꾼",320));
     gradeArr.push(new UnitData(5,"백산흑수 철부도",315));
     gradeArr.push(new UnitData(5,"관녕 철기병•진북",315));
     gradeArr.push(new UnitData(5,"신책 맥도병",315));
@@ -118,7 +120,6 @@ function InitUnitData()
     gradeArr.push(new UnitData(5,"칸 케식 경비대",310));
     gradeArr.push(new UnitData(5,"불랑기 화승총병",310));
     gradeArr.push(new UnitData(5,"시그룬 호위대",310));
-    gradeArr.push(new UnitData(5,"콜레흐 사냥꾼",310));
     gradeArr.push(new UnitData(5,"헝가리 표기장군",310));
     gradeArr.push(new UnitData(5,"관녕 철기병",305));
     gradeArr.push(new UnitData(5,"파주 석궁 기병영",305));
@@ -136,6 +137,7 @@ function InitUnitData()
     gradeArr.push(new UnitData(4,"요동 중갑대",245));
     gradeArr.push(new UnitData(4,"시파히 기병",245));
     gradeArr.push(new UnitData(4,"바이킹 광전사",245));
+    gradeArr.push(new UnitData(4,"클레이모어 고원 검사",245));
     gradeArr.push(new UnitData(4,"진충 장창영",240));
     gradeArr.push(new UnitData(4,"작센 설원 창기병",240));
     gradeArr.push(new UnitData(4,"작센 창기병",240));
@@ -149,9 +151,10 @@ function InitUnitData()
     gradeArr.push(new UnitData(4,"황야의 도끼 투척수",240));
     gradeArr.push(new UnitData(4,"베네치아 도심 창병",235));
     gradeArr.push(new UnitData(4,"무위 철인대",235));
-    gradeArr.push(new UnitData(4,"클레이모어 고원 검사",235));
     gradeArr.push(new UnitData(4,"스위스 영광 할버드병",230));
     gradeArr.push(new UnitData(4,"라고냐 투창병",230));
+    gradeArr.push(new UnitData(4,"Banner Guards: Zealous",215));
+
 
     /* 3성 */
     gradeArr.push(new UnitData(3,"후스 지원 화승총수",200));
@@ -176,11 +179,13 @@ function InitUnitData()
     gradeArr.push(new UnitData(3,"팔레르모 검방패병",170));
     gradeArr.push(new UnitData(3,"파주 사성영",165));
     gradeArr.push(new UnitData(3,"우림 우위 사성영",160));
-    gradeArr.push(new UnitData(3,"캐틀란 백파이퍼",120));
+    gradeArr.push(new UnitData(3,"캐틀란 백파이퍼",130));
     gradeArr.push(new UnitData(3,"천동 장창병",120));
+    gradeArr.push(new UnitData(3,"Alchemists: Conviction",120));
     gradeArr.push(new UnitData(3,"천동 투창 장사",115));
     gradeArr.push(new UnitData(3,"신무 거대 방패 진영",110));
     gradeArr.push(new UnitData(3,"진원 화승총병",110));
+   
 
     /* 2성 */
     gradeArr.push(new UnitData(2,"청원 화승총영",145));
