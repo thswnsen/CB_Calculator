@@ -117,6 +117,7 @@ function InitUnitData()
     gradeArr.push(new UnitData(5,"관녕 철기병•진북",315));
     gradeArr.push(new UnitData(5,"신책 맥도병",315));
     gradeArr.push(new UnitData(5,"신기 오천영",315));
+    gradeArr.push(new UnitData(5,"폴란드 윙드후사르",315));
     gradeArr.push(new UnitData(5,"칸 케식 경비대",310));
     gradeArr.push(new UnitData(5,"불랑기 화승총병",310));
     gradeArr.push(new UnitData(5,"시그룬 호위대",310));
