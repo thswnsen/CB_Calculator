@@ -1,8 +1,15 @@
 var gradeArr = new Array();
 var UnitHide = true;
-var leadershipDoctrin = false;
+var leadershipDoctrin = 0;
 var resultLeaderShip;
 var leadershipArray = new Array();
+const leadershipDoctrinList = 
+{
+    doctrinNone : 0,
+    doctrin_6 : 1,
+    doctrin_16 : 2,
+    doctrin_18 : 3,
+}
 
 
 window.onload=function(){
@@ -18,7 +25,9 @@ UnitData = function(rank, name, leadership)
     this.rank = rank;
     this.name = name;
     this.leadership = leadership;
+    this.leadership1 = Math.floor(leadership*0.94);
     this.leadership2 = Math.floor(leadership*0.84);
+    this.leadership3 = Math.floor(leadership*0.82);
     this.doctrin = false;
 }
 
@@ -72,6 +81,15 @@ function onChangeLeaderShip()
     document.getElementById("result").innerText = resultLeaderShip;
 }
 
+function onLeaderShipChange()
+{
+    onChangeLeaderShip();
+    removeAll(s1);
+    InitList();
+
+}
+
+
 function calculateUseLeaderShip()
 {
     var leadership = 0;
@@ -112,54 +130,56 @@ function InitUnitData()
     gradeArr.push(new UnitData(5,"바실레우스 화염 방사 호위대",330));
     gradeArr.push(new UnitData(5,"아필린 방패석궁병",325));
     gradeArr.push(new UnitData(5,"예니체리 궁궐호위대",320));
-    gradeArr.push(new UnitData(5,"콜레흐 사냥꾼",320));
+    gradeArr.push(new UnitData(5,"레티아리우스",320));
     gradeArr.push(new UnitData(5,"백산흑수 철부도",315));
+    gradeArr.push(new UnitData(5,"폴란드 윙드후사르",315));
     gradeArr.push(new UnitData(5,"관녕 철기병•진북",315));
     gradeArr.push(new UnitData(5,"신책 맥도병",315));
     gradeArr.push(new UnitData(5,"신기 오천영",315));
-    gradeArr.push(new UnitData(5,"바랑기안 가드",315));
-    gradeArr.push(new UnitData(5,"폴란드 윙드후사르",315));
+    gradeArr.push(new UnitData(5,"헝가리 표기장군",310));
     gradeArr.push(new UnitData(5,"칸 케식 경비대",310));
     gradeArr.push(new UnitData(5,"불랑기 화승총병",310));
     gradeArr.push(new UnitData(5,"시그룬 호위대",310));
-    gradeArr.push(new UnitData(5,"레티아리우스",310));
-    gradeArr.push(new UnitData(5,"헝가리 표기장군",310));
+    gradeArr.push(new UnitData(5,"콜레흐 사냥꾼",310));
     gradeArr.push(new UnitData(5,"관녕 철기병",305));
     gradeArr.push(new UnitData(5,"파주 석궁 기병영",305));
     gradeArr.push(new UnitData(5,"몰타 기사",305));
+    gradeArr.push(new UnitData(5,"바랑기안 가드",305));
+    gradeArr.push(new UnitData(5,"어쌔신",295));
  
     /* 4성 */
 
     gradeArr.push(new UnitData(4,"천웅 신궁영",255));
     gradeArr.push(new UnitData(4,"비엔나 화승총 근위군",255));
     gradeArr.push(new UnitData(4,"노밀 화승총영",255));
-    gradeArr.push(new UnitData(4,"몰타 원정 기사",245));
     gradeArr.push(new UnitData(4,"오랑캐 매의 기사",245));
     gradeArr.push(new UnitData(4,"브리튼 장궁수",245));
     gradeArr.push(new UnitData(4,"시파히 기병",245));
+    gradeArr.push(new UnitData(4,"몰타 원정 기사",245));
     gradeArr.push(new UnitData(4,"바이킹 광전사",245));
-    gradeArr.push(new UnitData(4,"클레이모어 고원 검사",245));
-    gradeArr.push(new UnitData(4,"몰타 충성 경비대",240));
+    gradeArr.push(new UnitData(4,"무르밀로 검투사",245));
     gradeArr.push(new UnitData(4,"진충 장창영",240));
-    gradeArr.push(new UnitData(4,"작센 설원 창기병",240));
     gradeArr.push(new UnitData(4,"작센 창기병",240));
     gradeArr.push(new UnitData(4,"정원 패도 기병",240));
     gradeArr.push(new UnitData(4,"유림 표기장군영",240));
     gradeArr.push(new UnitData(4,"양양 투창 사사",240));
     gradeArr.push(new UnitData(4,"오스만 검방패병",240));
+    gradeArr.push(new UnitData(4,"몰타 충성 경비대",240));
+    gradeArr.push(new UnitData(4,"작센 설원 창기병",240));
     gradeArr.push(new UnitData(4,"백군 수비대",240));
     gradeArr.push(new UnitData(4,"황야의 도끼 투척수",240));
-    gradeArr.push(new UnitData(4,"헤임달 친위대",240));
-    gradeArr.push(new UnitData(4,"무르밀로 검투사",235));
     gradeArr.push(new UnitData(4,"달단 돌진 사사",235));
     gradeArr.push(new UnitData(4,"베네치아 도심 창병",235));
     gradeArr.push(new UnitData(4,"무위 철인대",235));
-    gradeArr.push(new UnitData(4,"요동 중갑대",230));
+    gradeArr.push(new UnitData(4,"클레이모어 고원 검사",235));
     gradeArr.push(new UnitData(4,"스위스 영광 할버드병",230));
     gradeArr.push(new UnitData(4,"라고냐 투창병",230));
+    gradeArr.push(new UnitData(4,"헤임달 친위대",230));
     gradeArr.push(new UnitData(4,"파라곤 의장대",225));
+    gradeArr.push(new UnitData(4,"사헬 낙타병",225));
     gradeArr.push(new UnitData(4,"몰타 창방패병 경비대",220));
     gradeArr.push(new UnitData(4,"몰타 도보전 기사",220));
+    gradeArr.push(new UnitData(4,"요동 중갑대",220));
 
 
     /* 3성 */
@@ -173,15 +193,16 @@ function InitUnitData()
     gradeArr.push(new UnitData(3,"갈리아 십자궁수",180));
     gradeArr.push(new UnitData(3,"척가군 돌격대",180));
     gradeArr.push(new UnitData(3,"변방 수비대",180));
-    gradeArr.push(new UnitData(3,"펜릴 늑대 전사",175));
     gradeArr.push(new UnitData(3,"스위스 할버드병",175));
     gradeArr.push(new UnitData(3,"바실레우스 화염병 투척수",175));
     gradeArr.push(new UnitData(3,"스위스 알파인 할버드병",175));
+    gradeArr.push(new UnitData(3,"펜릴 늑대 전사",175));
+    gradeArr.push(new UnitData(3,"디마카에리",175));
     gradeArr.push(new UnitData(3,"몰타 검방패병 시종",170));
     gradeArr.push(new UnitData(3,"내만 호위대",170));
     gradeArr.push(new UnitData(3,"걸안 바투르",170));
     gradeArr.push(new UnitData(3,"팔레르모 검방패병",170));
-    gradeArr.push(new UnitData(3,"디마카에리",165));
+    gradeArr.push(new UnitData(3,"사막 비도 전사",170));
     gradeArr.push(new UnitData(3,"파주 사성영",165));
     gradeArr.push(new UnitData(3,"영서 수도사",160));
     gradeArr.push(new UnitData(3,"우림 우위 사성영",160));
@@ -191,7 +212,7 @@ function InitUnitData()
     gradeArr.push(new UnitData(3,"천동 장창병",120));
     gradeArr.push(new UnitData(3,"천동 투창 장사",115));
     gradeArr.push(new UnitData(3,"신무 거대 방패 진영",110));
-    gradeArr.push(new UnitData(3,"진원 화승총병",110));
+    gradeArr.push(new UnitData(3,"진원 화승총병",100));
    
 
     /* 2성 */
@@ -288,19 +309,35 @@ function InitList()
     }
 }
 
-function getDoctrin(event)  
+function getDoctrin()  
 {
-    if(event.target.checked)  {
-        leadershipDoctrin = true;
-    }else {
-        leadershipDoctrin = false;
+   
+    
+    var dropBox = document.getElementById("DoctrinSelect");
+    var selectValue = dropBox.options[dropBox.selectedIndex].value;
+    
+    switch(selectValue) {
+        case 'Doctrin6':  
+            leadershipDoctrin = leadershipDoctrinList.doctrin_6;
+            break
+      
+        case 'Doctrin16':  
+            leadershipDoctrin = leadershipDoctrinList.doctrin_16;
+            break
+
+        case 'Doctrin18':  
+            leadershipDoctrin = leadershipDoctrinList.doctrin_18;
+            break
+      
+        default:
+            leadershipDoctrin = leadershipDoctrinList.doctrinNone;
+            break
     }
+    
 
     var s1 = document.getElementById('s1');
     removeAll(s1);
     InitList();
-
- 
   }
 
   
@@ -319,14 +356,30 @@ function getHideUnit(event)
 
   function getUnitLeaderShip(unitData)
   {
-    if(leadershipDoctrin)
-    {
-        return unitData.leadership2;
+
+    var leadershipData;
+
+
+    switch(leadershipDoctrin) {
+        case leadershipDoctrinList.doctrin_6:  
+            leadershipData = unitData.leadership1;
+            break
+      
+        case leadershipDoctrinList.doctrin_16:  
+            leadershipData = unitData.leadership2;
+            break
+
+        case leadershipDoctrinList.doctrin_18:  
+            leadershipData = unitData.leadership3;
+            break
+      
+        default:
+            leadershipData = unitData.leadership;
+            break
     }
-    else
-    {
-        return unitData.leadership;
-    }
+
+
+    return leadershipData;
 
   }
 

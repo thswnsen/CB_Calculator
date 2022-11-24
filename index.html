@@ -29,19 +29,13 @@
         
         }
 
-        
-
-       
-       
-   
-
     </style>
     
     <div class="row" style="margin-top: 40px;">
         <div class="col">
             <h2> CB 통솔력 계산 </h2>
             <hr/>
-            <p><strong>통솔력:</strong> <input type="number" id = "leadership" onchange="onChangeLeaderShip()">
+            <p><strong>통솔력:</strong> <input type="number" id = "leadership" onchange="onLeaderShipChange()">
             <p><strong>남은 통솔력:</strong> <text id="result"></div>
         </div>
     </div>
@@ -49,7 +43,14 @@
 <body>
     
     <div>
-        <label><input type="checkbox" name="leadershipDoctrin" onchange='getDoctrin(event)'> 통솔 군혼 장착</label>
+        <p><strong>장착된 통솔군혼 :</strong>
+        <select id="DoctrinSelect" onchange="getDoctrin()">
+            <option value="DoctrinNone">없음</option>
+            <option value="Doctrin6">6%</option>
+            <option value="Doctrin16">16%</option>
+            <option value="Doctrin18">18%</option>
+        </select>
+        <hr/>
         <label><input type="checkbox" name="hideUnit" checked onchange='getHideUnit(event)'> 편성 불가 유닛 숨기기</label>
     </div>
     <select multiple class="s1" id = s1 onchange="s1DbClicked()" >
@@ -58,6 +59,9 @@
     <select multiple class="s2" id = s2 onchange="s2DbClicked()">
     </select>
 
+
+    <hr/>
+    <p><strong>오타 및 오류 또는 버그제보 - 휀필리아#8941</strong>
     
 
 
