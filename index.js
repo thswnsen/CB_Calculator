@@ -175,11 +175,12 @@ function InitUnitData()
     gradeArr.push(new UnitData(4,"스위스 영광 할버드병",230));
     gradeArr.push(new UnitData(4,"라고냐 투창병",230));
     gradeArr.push(new UnitData(4,"헤임달 친위대",230));
+    gradeArr.push(new UnitData(4,"요동 중갑대",230));
     gradeArr.push(new UnitData(4,"파라곤 의장대",225));
     gradeArr.push(new UnitData(4,"사헬 낙타병",225));
     gradeArr.push(new UnitData(4,"몰타 창방패병 경비대",220));
     gradeArr.push(new UnitData(4,"몰타 도보전 기사",220));
-    gradeArr.push(new UnitData(4,"요동 중갑대",220));
+    
 
 
     /* 3성 */
