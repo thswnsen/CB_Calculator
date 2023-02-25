@@ -145,7 +145,8 @@ function InitUnitData()
     gradeArr.push(new UnitData(5,"관녕 철기병",305));
     gradeArr.push(new UnitData(5,"파주 석궁 기병영",305));
     gradeArr.push(new UnitData(5,"몰타 기사",305));
-    gradeArr.push(new UnitData(5,"어쌔신",295));
+    gradeArr.push(new UnitData(5,"어쌔신",305));
+    gradeArr.push(new UnitData(5,"배외 비마병",305));
  
     /* 4성 */
 
@@ -169,15 +170,16 @@ function InitUnitData()
     gradeArr.push(new UnitData(4,"작센 설원 창기병",240));
     gradeArr.push(new UnitData(4,"백군 수비대",240));
     gradeArr.push(new UnitData(4,"황야의 도끼 투척수",240));
+    gradeArr.push(new UnitData(4,"득도 승려",235));
     gradeArr.push(new UnitData(4,"달단 돌진 사사",235));
     gradeArr.push(new UnitData(4,"베네치아 도심 창병",235));
     gradeArr.push(new UnitData(4,"무위 철인대",235));
+    gradeArr.push(new UnitData(4,"사헬 낙타병",235));
     gradeArr.push(new UnitData(4,"스위스 영광 할버드병",230));
     gradeArr.push(new UnitData(4,"라고냐 투창병",230));
     gradeArr.push(new UnitData(4,"헤임달 친위대",230));
     gradeArr.push(new UnitData(4,"요동 중갑대",230));
     gradeArr.push(new UnitData(4,"파라곤 의장대",225));
-    gradeArr.push(new UnitData(4,"사헬 낙타병",225));
     gradeArr.push(new UnitData(4,"몰타 창방패병 경비대",220));
     gradeArr.push(new UnitData(4,"몰타 도보전 기사",220));
     
@@ -194,6 +196,7 @@ function InitUnitData()
     gradeArr.push(new UnitData(3,"갈리아 십자궁수",180));
     gradeArr.push(new UnitData(3,"척가군 돌격대",180));
     gradeArr.push(new UnitData(3,"변방 수비대",180));
+    gradeArr.push(new UnitData(3,"사막 비도 전사",180));
     gradeArr.push(new UnitData(3,"스위스 할버드병",175));
     gradeArr.push(new UnitData(3,"바실레우스 화염병 투척수",175));
     gradeArr.push(new UnitData(3,"스위스 알파인 할버드병",175));
@@ -203,11 +206,11 @@ function InitUnitData()
     gradeArr.push(new UnitData(3,"내만 호위대",170));
     gradeArr.push(new UnitData(3,"걸안 바투르",170));
     gradeArr.push(new UnitData(3,"팔레르모 검방패병",170));
-    gradeArr.push(new UnitData(3,"사막 비도 전사",170));
     gradeArr.push(new UnitData(3,"파주 사성영",165));
     gradeArr.push(new UnitData(3,"영서 수도사",160));
     gradeArr.push(new UnitData(3,"우림 우위 사성영",160));
     gradeArr.push(new UnitData(3,"경기 철위영",155));
+    gradeArr.push(new UnitData(3,"비화군",155));
     gradeArr.push(new UnitData(3,"캐틀란 백파이퍼",130));
     gradeArr.push(new UnitData(3,"파발루 아카데미 의무대",130));
     gradeArr.push(new UnitData(3,"천동 장창병",120));
