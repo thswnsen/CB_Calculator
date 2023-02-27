@@ -240,7 +240,7 @@ function InitUnitData()
     gradeArr.push(new UnitData(1,"귀향 패수",100));
     gradeArr.push(new UnitData(1,"의오 단련",100));
     gradeArr.push(new UnitData(1,"웨일스 서민 궁수",80));
-    gradeArr.push(new UnitData(1,"전서 단련 궁수",70));
+    gradeArr.push(new UnitData(1,"전서 단련 궁수",75));
     gradeArr.push(new UnitData(1,"저지대 장창병",70));
     gradeArr.push(new UnitData(1,"밀라노 민병대",40));
     gradeArr.push(new UnitData(1,"갈리아 소작농",40));
