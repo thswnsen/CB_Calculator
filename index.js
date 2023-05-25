@@ -215,6 +215,8 @@ function InitUnitData()
     gradeArr.push(new UnitData(3,"우림 우위 사성영",160));
     gradeArr.push(new UnitData(3,"경기 철위영",155));
     gradeArr.push(new UnitData(3,"Ronin",150));
+    gradeArr.push(new UnitData(3,"Saintly Mace Sergent",150));
+    gradeArr.push(new UnitData(3,"Naginata Monk",145));
     gradeArr.push(new UnitData(3,"캐틀란 백파이퍼",130));
     gradeArr.push(new UnitData(3,"파발루 아카데미 의무대",130));
     gradeArr.push(new UnitData(3,"천동 장창병",120));
