@@ -1,71 +1,71 @@
-
 <html>
-    <script type="text/javascript" src="index.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    
-    <style media="screen">
-        body{
-            margin: 5% 5%;
-        }
-        .s1, .s2
-        {
-            width:350px;
-            height: 600;
-            margin-right: 60px;
-        }
-        label 
-        {
-            display: table;
-            padding-left: 15px;
-            text-indent: -15px;
-            
-        }
-        #optionItem
-        {
+<script type="text/javascript" src="index.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
-            border-bottom: 1px dashed rgb(0, 0, 0);
-            padding: 5px 15px 5px;
-            transition: .1s;
-        
-        }
+<style media="screen">
+    body {
+        margin: 5% 5%;
+    }
 
-    </style>
-    
-    <div class="row" style="margin-top: 40px;">
-        <div class="col">
-            <h2> CB 통솔력 계산 </h2>
-            <hr/>
-            <p><strong>통솔력:</strong> <input type="number" id = "leadership" onchange="onLeaderShipChange()">
-            <p><strong>남은 통솔력:</strong> <text id="result"></div>
-        </div>
+    .s1,
+    .s2 {
+        width: 350px;
+        height: 600;
+        margin-right: 60px;
+    }
+
+    label {
+        display: table;
+        padding-left: 15px;
+        text-indent: -15px;
+
+    }
+
+    #optionItem {
+
+        border-bottom: 1px dashed rgb(0, 0, 0);
+        padding: 5px 15px 5px;
+        transition: .1s;
+
+    }
+</style>
+
+<div class="row" style="margin-top: 40px;">
+    <div class="col">
+        <h2> CB 통솔력 계산 </h2>
+        <hr />
+        <p><strong>통솔력:</strong> <input type="number" id="leadership" onchange="onLeaderShipChange()">
+        <p><strong>남은 통솔력:</strong> <text id="result">
     </div>
-    
+</div>
+</div>
+
 <body>
-    
+
     <div>
         <p><strong>장착된 통솔군혼 :</strong>
-        <select id="DoctrinSelect" onchange="getDoctrin()">
-            <option value="DoctrinNone">없음</option>
-            <option value="Doctrin6">6%</option>
-            <option value="Doctrin16">16%</option>
-            <option value="Doctrin18">18%</option>
-        </select>
-        <hr/>
-        <label><input type="checkbox" name="hideUnit" checked onchange='getHideUnit(event)'> 편성 불가 유닛 숨기기</label>
+            <select id="DoctrinSelect" onchange="getDoctrin()">
+                <option value="DoctrinNone">없음</option>
+                <option value="Doctrin6">6%</option>
+                <option value="Doctrin16">16%</option>
+                <option value="Doctrin18">18%</option>
+            </select>
+            <hr />
+            <label><input type="checkbox" name="hideUnit" checked onchange='getHideUnit(event)'> 편성 불가 유닛 숨기기</label>
     </div>
-    <select multiple class="s1" id = s1 onchange="s1DbClicked()" >
+    <select multiple class="s1" id=s1 onchange="s1DbClicked()">
     </select>
 
-    <select multiple class="s2" id = s2 onchange="s2DbClicked()">
+    <select multiple class="s2" id=s2 onchange="s2DbClicked()">
     </select>
 
 
-    <hr/>
+    <hr />
     <p><strong>오타 및 오류 또는 버그제보 - 휀필리아#8941</strong>
-    
+
 
 
 
 </body>
-   
-</html>   
+
+</html>
