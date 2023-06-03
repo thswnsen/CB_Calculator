@@ -147,7 +147,7 @@ function InitUnitData()
     gradeArr.push(new UnitData(5,"파주 석궁 기병영",305));
     gradeArr.push(new UnitData(5,"몰타 기사",305));
     gradeArr.push(new UnitData(5,"어쌔신",305));
-    gradeArr.push(new UnitData(5,"Orochi Samurai",290));
+    gradeArr.push(new UnitData(5,"사나다 적비대",290));
     
  
     /* 4성 */
@@ -184,7 +184,7 @@ function InitUnitData()
     gradeArr.push(new UnitData(4,"파라곤 의장대",225));
     gradeArr.push(new UnitData(4,"몰타 창방패병 경비대",220));
     gradeArr.push(new UnitData(4,"몰타 도보전 기사",220));
-    gradeArr.push(new UnitData(4,"Onna-Musha",215));
+    gradeArr.push(new UnitData(4,"사치도 여무사",215));
     
 
 
@@ -214,9 +214,9 @@ function InitUnitData()
     gradeArr.push(new UnitData(3,"영서 수도사",160));
     gradeArr.push(new UnitData(3,"우림 우위 사성영",160));
     gradeArr.push(new UnitData(3,"경기 철위영",155));
-    gradeArr.push(new UnitData(3,"Ronin",150));
-    gradeArr.push(new UnitData(3,"Saintly Mace Sergent",150));
-    gradeArr.push(new UnitData(3,"Naginata Monk",145));
+    gradeArr.push(new UnitData(3,"후라이보 무사",150));
+    gradeArr.push(new UnitData(3,"엘모 천신 해머",150));
+    gradeArr.push(new UnitData(3,"치도 승병",145));
     gradeArr.push(new UnitData(3,"캐틀란 백파이퍼",130));
     gradeArr.push(new UnitData(3,"파발루 아카데미 의무대",130));
     gradeArr.push(new UnitData(3,"천동 장창병",120));
