@@ -126,28 +126,28 @@ function InitUnitData()
 {
     /* 5성 */
     gradeArr.push(new UnitData(5,"파발루 왕실 기사단",340));
-    gradeArr.push(new UnitData(5,"아르노 화포 포병",330));
-    gradeArr.push(new UnitData(5,"바실레우스 화염 방사 호위대",330));
-    gradeArr.push(new UnitData(5,"아필린 방패석궁병",325));
-    gradeArr.push(new UnitData(5,"예니체리 궁궐호위대",320));
-    gradeArr.push(new UnitData(5,"레티아리우스",320));
+    gradeArr.push(new UnitData(5,"아르노 화포 포병",320));
     gradeArr.push(new UnitData(5,"배외 비마병",320));
-    gradeArr.push(new UnitData(5,"백산흑수 철부도",315));
+    gradeArr.push(new UnitData(5,"바실레우스 화염 방사 호위대",315));
     gradeArr.push(new UnitData(5,"폴란드 윙드후사르",315));
     gradeArr.push(new UnitData(5,"관녕 철기병•진북",315));
-    gradeArr.push(new UnitData(5,"신책 맥도병",315));
     gradeArr.push(new UnitData(5,"신기 오천영",315));
-    gradeArr.push(new UnitData(5,"바랑기안 가드",315));
-    gradeArr.push(new UnitData(5,"헝가리 표기장군",310));
-    gradeArr.push(new UnitData(5,"칸 케식 경비대",310));
-    gradeArr.push(new UnitData(5,"불랑기 화승총병",310));
+    gradeArr.push(new UnitData(5,"신책 맥도병",310));
     gradeArr.push(new UnitData(5,"시그룬 호위대",310));
     gradeArr.push(new UnitData(5,"콜레흐 사냥꾼",310));
-    gradeArr.push(new UnitData(5,"관녕 철기병",305));
-    gradeArr.push(new UnitData(5,"파주 석궁 기병영",305));
-    gradeArr.push(new UnitData(5,"몰타 기사",305));
-    gradeArr.push(new UnitData(5,"어쌔신",305));
-    gradeArr.push(new UnitData(5,"사나다 적비대",290));
+    gradeArr.push(new UnitData(5,"헝가리 표기장군",305));
+    gradeArr.push(new UnitData(5,"레티아리우스",305));
+    gradeArr.push(new UnitData(5,"아필린 방패석궁병",305));
+    gradeArr.push(new UnitData(5,"백산흑수 철부도",305));
+    gradeArr.push(new UnitData(5,"예니체리 궁궐호위대",305));
+    gradeArr.push(new UnitData(5,"칸 케식 경비대",300));
+    gradeArr.push(new UnitData(5,"바랑기안 가드",300));
+    gradeArr.push(new UnitData(5,"불랑기 화승총병",300));
+    gradeArr.push(new UnitData(5,"어쌔신",295));
+    gradeArr.push(new UnitData(5,"몰타 기사",295));
+    gradeArr.push(new UnitData(5,"파주 석궁 기병영",295));
+    gradeArr.push(new UnitData(5,"관녕 철기병",285));
+    gradeArr.push(new UnitData(5,"사나다 적비대",285));
     
  
     /* 4성 */
