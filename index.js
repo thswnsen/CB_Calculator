@@ -129,7 +129,6 @@ function InitUnitData()
     gradeArr.push(new UnitData(5,"아르노 화포 포병",320));
     gradeArr.push(new UnitData(5,"배외 비마병",320));
     gradeArr.push(new UnitData(5,"바실레우스 화염 방사 호위대",315));
-    gradeArr.push(new UnitData(5,"폴란드 윙드후사르",315));
     gradeArr.push(new UnitData(5,"관녕 철기병•진북",315));
     gradeArr.push(new UnitData(5,"신기 오천영",315));
     gradeArr.push(new UnitData(5,"신책 맥도병",310));
@@ -137,62 +136,64 @@ function InitUnitData()
     gradeArr.push(new UnitData(5,"콜레흐 사냥꾼",310));
     gradeArr.push(new UnitData(5,"헝가리 표기장군",305));
     gradeArr.push(new UnitData(5,"레티아리우스",305));
-    gradeArr.push(new UnitData(5,"아필린 방패석궁병",305));
-    gradeArr.push(new UnitData(5,"백산흑수 철부도",305));
-    gradeArr.push(new UnitData(5,"예니체리 궁궐호위대",305));
+    gradeArr.push(new UnitData(5,"폴란드 윙드후사르",305));
+    gradeArr.push(new UnitData(5,"예니체리 궁궐호위대",300));
+    gradeArr.push(new UnitData(5,"백산흑수 철부도",300));
     gradeArr.push(new UnitData(5,"칸 케식 경비대",300));
-    gradeArr.push(new UnitData(5,"바랑기안 가드",300));
     gradeArr.push(new UnitData(5,"불랑기 화승총병",300));
+    gradeArr.push(new UnitData(5,"바랑기안 가드",290));
     gradeArr.push(new UnitData(5,"어쌔신",295));
     gradeArr.push(new UnitData(5,"몰타 기사",295));
     gradeArr.push(new UnitData(5,"파주 석궁 기병영",295));
     gradeArr.push(new UnitData(5,"관녕 철기병",285));
     gradeArr.push(new UnitData(5,"사나다 적비대",285));
+    gradeArr.push(new UnitData(5,"아필린 방패석궁병",280));
     
  
     /* 4성 */
 
-    gradeArr.push(new UnitData(4,"천웅 신궁영",255));
-    gradeArr.push(new UnitData(4,"비엔나 화승총 근위군",255));
-    gradeArr.push(new UnitData(4,"노밀 화승총영",255));
     gradeArr.push(new UnitData(4,"득도 승려",250));
+    gradeArr.push(new UnitData(4,"비엔나 화승총 근위군",245));
+    gradeArr.push(new UnitData(4,"노밀 화승총영",245));
     gradeArr.push(new UnitData(4,"오랑캐 매의 기사",245));
-    gradeArr.push(new UnitData(4,"브리튼 장궁수",245));
-    gradeArr.push(new UnitData(4,"시파히 기병",245));
-    gradeArr.push(new UnitData(4,"몰타 원정 기사",245));
     gradeArr.push(new UnitData(4,"바이킹 광전사",245));
     gradeArr.push(new UnitData(4,"무르밀로 검투사",245));
-    gradeArr.push(new UnitData(4,"클레이모어 고원 검사",245));
+    gradeArr.push(new UnitData(4,"유림 표기장군영",245));
     gradeArr.push(new UnitData(4,"진충 장창영",240));
-    gradeArr.push(new UnitData(4,"작센 창기병",240));
-    gradeArr.push(new UnitData(4,"정원 패도 기병",240));
-    gradeArr.push(new UnitData(4,"유림 표기장군영",240));
+    gradeArr.push(new UnitData(4,"요동 중갑대",240));
     gradeArr.push(new UnitData(4,"양양 투창 사사",240));
-    gradeArr.push(new UnitData(4,"오스만 검방패병",240));
     gradeArr.push(new UnitData(4,"몰타 충성 경비대",240));
-    gradeArr.push(new UnitData(4,"작센 설원 창기병",240));
-    gradeArr.push(new UnitData(4,"백군 수비대",240));
-    gradeArr.push(new UnitData(4,"황야의 도끼 투척수",240));
-    gradeArr.push(new UnitData(4,"달단 돌진 사사",235));
+    gradeArr.push(new UnitData(4,"클레이모어 고원 검사",235));
+    gradeArr.push(new UnitData(4,"작센 설원 창기병",235));
+    gradeArr.push(new UnitData(4,"몰타 원정 기사",235));
+    gradeArr.push(new UnitData(4,"천웅 신궁영",235));
     gradeArr.push(new UnitData(4,"베네치아 도심 창병",235));
-    gradeArr.push(new UnitData(4,"무위 철인대",235));
     gradeArr.push(new UnitData(4,"사헬 낙타병",235));
+    gradeArr.push(new UnitData(4,"황야의 도끼 투척수",230));
+    gradeArr.push(new UnitData(4,"무위 철인대",230));
+    gradeArr.push(new UnitData(4,"백군 수비대",230));
     gradeArr.push(new UnitData(4,"스위스 영광 할버드병",230));
     gradeArr.push(new UnitData(4,"라고냐 투창병",230));
     gradeArr.push(new UnitData(4,"헤임달 친위대",230));
-    gradeArr.push(new UnitData(4,"요동 중갑대",230));
+    gradeArr.push(new UnitData(4,"사치도 여무사",225));
+    gradeArr.push(new UnitData(4,"작센 창기병",225));
+    gradeArr.push(new UnitData(4,"정원 패도 기병",225));
+    gradeArr.push(new UnitData(4,"달단 돌진 사사",225));
+    gradeArr.push(new UnitData(4,"오스만 검방패병",225));
+    gradeArr.push(new UnitData(4,"시파히 기병",215));
     gradeArr.push(new UnitData(4,"파라곤 의장대",225));
-    gradeArr.push(new UnitData(4,"몰타 창방패병 경비대",220));
-    gradeArr.push(new UnitData(4,"몰타 도보전 기사",220));
-    gradeArr.push(new UnitData(4,"사치도 여무사",215));
+    gradeArr.push(new UnitData(4,"브리튼 장궁수",215));
+    gradeArr.push(new UnitData(4,"몰타 창방패병 경비대",215));
+    gradeArr.push(new UnitData(4,"몰타 도보전 기사",215));
+    gradeArr.push(new UnitData(4,"다네가시마 철포수",205));
     
 
 
     /* 3성 */
-    gradeArr.push(new UnitData(3,"후스 지원 화승총수",200));
     gradeArr.push(new UnitData(3,"예니체리 장총부대",190));
     gradeArr.push(new UnitData(3,"우림 좌위 사성영",185));
     gradeArr.push(new UnitData(3,"유가 창병",185));
+    gradeArr.push(new UnitData(3,"후스 지원 화승총수",180));
     gradeArr.push(new UnitData(3,"다르다넬 불화살 사수",180));
     gradeArr.push(new UnitData(3,"파주 연노영",180));
     gradeArr.push(new UnitData(3,"바르호 사냥꾼",180));
