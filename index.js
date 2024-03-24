@@ -136,12 +136,12 @@ function InitUnitData()
     gradeArr.push(new UnitData(5,"헝가리 표기장군",305));
     gradeArr.push(new UnitData(5,"레티아리우스",305));
     gradeArr.push(new UnitData(5,"폴란드 윙드후사르",305));
-    gradeArr.push(new UnitData(5,"란슬롯 기사",305));
     gradeArr.push(new UnitData(5,"바실레우스 화염 방사 호위대",300));
     gradeArr.push(new UnitData(5,"아르노 화포 포병",300));
     gradeArr.push(new UnitData(5,"예니체리 궁궐호위대",300));
     gradeArr.push(new UnitData(5,"백산흑수 철부도",300));
     gradeArr.push(new UnitData(5,"칸 케식 경비대",300));
+    gradeArr.push(new UnitData(5,"란슬롯 기사",295));
     gradeArr.push(new UnitData(5,"바랑기안 가드",290));
     gradeArr.push(new UnitData(5,"어쌔신",295));
     gradeArr.push(new UnitData(5,"몰타 기사",295));
@@ -166,7 +166,6 @@ function InitUnitData()
     gradeArr.push(new UnitData(4,"요동 중갑대",240));
     gradeArr.push(new UnitData(4,"양양 투창 사사",240));
     gradeArr.push(new UnitData(4,"몰타 충성 경비대",240));
-    gradeArr.push(new UnitData(4,"갤러해드 철위",235));
     gradeArr.push(new UnitData(4,"클레이모어 고원 검사",235));
     gradeArr.push(new UnitData(4,"작센 설원 창기병",235));
     gradeArr.push(new UnitData(4,"몰타 원정 기사",235));
@@ -180,6 +179,7 @@ function InitUnitData()
     gradeArr.push(new UnitData(4,"스위스 영광 할버드병",230));
     gradeArr.push(new UnitData(4,"라고냐 투창병",230));
     gradeArr.push(new UnitData(4,"헤임달 친위대",230));
+    gradeArr.push(new UnitData(4,"갤러해드 철위",225));
     gradeArr.push(new UnitData(4,"천책부 당무위",225));
     gradeArr.push(new UnitData(4,"작센 창기병",225));
     gradeArr.push(new UnitData(4,"정원 패도 기병",225));
@@ -195,7 +195,7 @@ function InitUnitData()
 
 
     /* 3성 */
-    gradeArr.push(new UnitData(3,"베데빌 레인저",205));
+    gradeArr.push(new UnitData(3,"베데빌 레인저",195));
     gradeArr.push(new UnitData(3,"예니체리 장총부대",180));
     gradeArr.push(new UnitData(3,"우림 좌위 사성영",180));
     gradeArr.push(new UnitData(3,"다르다넬 불화살 사수",180));
