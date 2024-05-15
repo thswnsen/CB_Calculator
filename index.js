@@ -172,13 +172,13 @@ function InitUnitData()
     gradeArr.push(new UnitData(4,"천웅 신궁영",235));
     gradeArr.push(new UnitData(4,"베네치아 도심 창병",235));
     gradeArr.push(new UnitData(4,"사헬 낙타병",235));
-    gradeArr.push(new UnitData(4,"사치도 여무사",235));
     gradeArr.push(new UnitData(4,"황야의 도끼 투척수",230));
     gradeArr.push(new UnitData(4,"무위 철인대",230));
     gradeArr.push(new UnitData(4,"신정 요새 기사단",230));
     gradeArr.push(new UnitData(4,"스위스 영광 할버드병",230));
     gradeArr.push(new UnitData(4,"라고냐 투창병",230));
     gradeArr.push(new UnitData(4,"헤임달 친위대",230));
+    gradeArr.push(new UnitData(4,"사치도 여무사",225));
     gradeArr.push(new UnitData(4,"갤러해드 철위",225));
     gradeArr.push(new UnitData(4,"천책부 당무위",225));
     gradeArr.push(new UnitData(4,"작센 창기병",225));
